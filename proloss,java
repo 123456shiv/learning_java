@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class proloss
+{
+    public static void main(String[]args)
+
+{
+    int cp ,sp;
+    Scanner sc=new Scanner(System.in);
+    System.out.println("Enter the cost price;");
+    cp=sc.nextInt();
+    System.out.println("Enter the Selling price:");
+    sp=sc.nextInt();
+
+    if(sp>cp)
+    {
+        int profit=sp-cp;
+        System.out.println("Profit: " + profit);
+    }
+    else if(cp>sp)
+    {
+        int loss=cp-sp;
+        System.out.println("Loss: " + loss);
+    }
+    else
+    {
+        System.out.println("No profit no loss");
+    }
+    }
+}
