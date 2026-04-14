@@ -12,6 +12,6 @@ public class mu
         b=obj.nextInt();
         c=a*b;
         System.out.println("The multiplication of "+a+" and "+b+" is:"+c);
-        
+      // hedllo   
     }
 }
